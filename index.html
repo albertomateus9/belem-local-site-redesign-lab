@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Belem Local Site Redesign Lab</title>
+  <meta name="description" content="HTML and CSS redesign exercise for a fictional Belem local service page with accessibility improvements.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body data-mode="redesign">
+  <header>
+    <div class="topbar">
+      <div class="brand"><span class="mark">I</span><span>Belem Local Site Redesign Lab</span></div>
+      <nav aria-label="Primary navigation">
+        <a href="#practice">Practice</a>
+        <a href="#output">Output</a>
+        <a href="#privacy">Data policy</a>
+      </nav>
+      <button class="ghost" id="themeToggle" type="button">Theme</button>
+    </div>
+    <section class="hero">
+      <div class="hero-copy">
+        <h1>Turn a rough local-service page into a readable interface.</h1>
+        <p>Compare a fictional old layout against an improved accessible structure for a Belem service.</p>
+        <div class="toolbar">
+          <a class="button" href="#practice">Start lab</a>
+          <button class="secondary" id="exportButton" type="button">Export report</button>
+        </div>
+      </div>
+      <aside class="panel">
+        <h2>I-02 Snapshot</h2>
+        <p>Web Technologies | Introductory</p>
+        <div class="grid">
+          <div class="metric"><strong>6</strong><span>checks</span></div>
+          <div class="metric"><strong>2</strong><span>layouts</span></div>
+          <div class="metric"><strong>1</strong><span>style guide</span></div>
+        </div>
+      </aside>
+    </section>
+  </header>
+
+  <main>
+    <section id="practice">
+      <h2>Practice Surface</h2>
+      <div class="grid" id="cards"></div>
+    </section>
+
+    <section class="grid two" id="output">
+      <div class="panel">
+        <h2>Interactive Output</h2>
+        <div id="dynamicSurface"></div>
+      </div>
+      <div class="panel">
+        <h2>Progress</h2>
+        <div id="progressList"></div>
+      </div>
+    </section>
+
+    <section class="panel" id="privacy">
+      <h2>Data Policy</h2>
+      <p>Educational project inspired by EETEPA Vilhena Alves. It is not an official institutional system and does not use real student data.</p>
+      <p>All demo content is synthetic and local. No form or metric is submitted to a backend.</p>
+    </section>
+  </main>
+
+  <footer>
+    Technical Computing | Web Technologies | MIT License
+  </footer>
+
+  <script id="projectData" type="application/json">{"title":"Belem Local Site Redesign Lab","code":"I-02","discipline":"Web Technologies","notice":"Educational project inspired by EETEPA Vilhena Alves. It is not an official institutional system and does not use real student data.","features":[{"name":"interface analysis","score":72},{"name":"semantic sections","score":76},{"name":"alternative text planning","score":80},{"name":"contrast","score":84},{"name":"responsive layout","score":88}],"headline":"Turn a rough local-service page into a readable interface.","summary":"Compare a fictional old layout against an improved accessible structure for a Belem service.","cards":["Navigation clarity","Contrast check","Content grouping","Action visibility"],"metrics":["6 checks","2 layouts","1 style guide"]}</script>
+  <script src="script.js"></script>
+</body>
+</html>

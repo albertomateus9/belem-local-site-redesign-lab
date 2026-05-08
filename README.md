@@ -1,0 +1,91 @@
+# Belem Local Site Redesign Lab
+
+HTML and CSS redesign exercise for a fictional Belem local service page with accessibility improvements.
+
+> Educational project inspired by EETEPA Vilhena Alves. It is not an official institutional system and does not use real student data.
+
+## Overview
+
+**Curricular code:** I-02  
+**Course:** Technical Computing  
+**Discipline:** Web Technologies  
+**Difficulty:** Introductory
+
+This repository is a small runnable MVP for portfolio and classroom practice. It uses only static files and local sample content, so it can run on GitHub Pages without a backend.
+
+## Concepts Practiced
+
+- interface analysis
+- semantic sections
+- alternative text planning
+- contrast
+- responsive layout
+
+## Run Locally
+
+Open `index.html` directly or serve the folder:
+
+```bash
+python -m http.server 8000
+```
+
+Then open `http://localhost:8000`.
+
+## Public Demo
+
+GitHub Pages target: `https://albertomateus9.github.io/belem-local-site-redesign-lab/`
+
+## Data And Privacy
+
+- Uses only synthetic educational content.
+- Does not submit forms to a server.
+- Does not include real student records or internal school documents.
+
+---
+
+# Belem Local Site Redesign Lab
+
+HTML and CSS redesign exercise for a fictional Belem local service page with accessibility improvements.
+
+> Projeto educacional inspirado na EETEPA Vilhena Alves. Nao e sistema oficial institucional e nao usa dados reais de estudantes.
+
+## Visao Geral
+
+**Codigo curricular:** I-02  
+**Curso:** Tecnico em Informatica  
+**Disciplina:** Tecnologias Web  
+**Dificuldade:** Introdutorio
+
+Este repositorio e um MVP pequeno e executavel para portfolio e pratica em sala. Ele usa apenas arquivos estaticos e conteudo local de amostra, entao pode rodar no GitHub Pages sem backend.
+
+## Conceitos Praticados
+
+- interface analysis
+- semantic sections
+- alternative text planning
+- contrast
+- responsive layout
+
+## Como Rodar
+
+Abra `index.html` diretamente ou sirva a pasta:
+
+```bash
+python -m http.server 8000
+```
+
+Depois abra `http://localhost:8000`.
+
+## Demo Publica
+
+Destino GitHub Pages: `https://albertomateus9.github.io/belem-local-site-redesign-lab/`
+
+## Dados E Privacidade
+
+- Usa apenas conteudo educacional sintetico.
+- Nao envia formularios para servidor.
+- Nao inclui registros reais de estudantes nem documentos internos da escola.
+
+## License
+
+MIT. See [LICENSE](LICENSE).
